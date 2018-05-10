@@ -21,7 +21,8 @@ class Song
 
   def self.genres
       @@genres << @genre
+      @@genres.uniq
     end
   end
-      
+
 end
